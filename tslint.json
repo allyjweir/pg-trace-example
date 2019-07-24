@@ -1,0 +1,28 @@
+{
+    "extends": "tslint-config-airbnb",
+    "rules": {
+        "await-promise": true,
+        "class-name": true,
+        "eofline": true,
+        "max-line-length": [true, 120],
+        "no-console": true,
+        "no-duplicate-imports": true,
+        "no-irregular-whitespace": true,
+        "no-parameter-reassignment": true,
+        "no-return-await": true,
+        "no-string-literal": true,
+        "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-unnecessary-type-assertion": true,
+        "only-arrow-functions": true,
+        "prefer-const": true,
+        "prefer-object-spread": true,
+        "strict-type-predicates": true,
+        "switch-default": true,
+        "ter-indent": [true, 4],
+        "triple-equals": true
+    },
+    "env": {
+        "jest": true
+    }
+}
