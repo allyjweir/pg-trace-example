@@ -3,7 +3,7 @@ import { getEnv } from './utils/getEnv';
 
 const router = express.Router();
 
-router.route('/').get(async (req, res) => {
+router.get('/', async (req, res) => {
     try {
             // A query that serves as an example which has query_args.
         await req.app.locals.pg.query(
