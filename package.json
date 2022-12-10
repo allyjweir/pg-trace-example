@@ -15,7 +15,7 @@
     "@types/pg": "^7.4.14",
     "@types/raven": "^2.5.3",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-jwt": "^5.3.1",
     "honeycomb-beeline": "git://github.com/honeycombio/beeline-nodejs.git#8d602c5",
     "jsonwebtoken": "^8.5.1",
